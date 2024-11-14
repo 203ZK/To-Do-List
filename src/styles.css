@@ -1,0 +1,106 @@
+body {
+    box-sizing: border-box;
+    font-family:  Verdana, sans-serif;
+    background-color: rgba(17, 196, 202, 0.87);
+    margin: 0;
+}
+
+.header {
+    font-size: 32px;
+    font-weight: bold;
+    background-color: white;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    text-align: center;
+}
+
+.add-todo-btn, .project-title {
+    margin-left: 10px;
+}
+
+.add-todo-btn {
+    background-color: rgb(56, 56, 255);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.todos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 800px;
+    margin: auto;
+}
+
+.new > .input-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 40px;
+    width: 650px;
+}
+
+.title-input, .description-input {
+    margin-left: -4px;
+}
+
+input[name="title"], input[name="description"] {
+    border: none;
+}
+
+input[name="title"] {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input[name="description"] {
+    font-size: 14px;
+}
+
+.card {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 16px;
+    padding: 20px;
+    background-color: white;
+}
+
+.checkbox-div {
+    display: flex;
+    padding: 20px 20px 20px 0;
+    align-items: center;
+    float: left;
+    width: 20px;
+}
+
+.details-div {
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    width: 650px;
+}
+
+.title {
+    margin: 4px 0 8px 0;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 4px;
+}
+
+.description, .priority {
+    margin: 2px 0;
+    font-size: 14px;
+    color: grey;
+}
+
+.btns-div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    float: right;
+}
